@@ -6,8 +6,8 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import Root from "./routes/root.jsx";
-import ErrorPage from "./components/error-page.jsx";
-import WeatherPage from "./components/weather/weather-page.jsx";
+import ErrorPage from "./pages/ErrorPage.jsx";
+import WeatherPage from "./pages/weather/WeatherPage.jsx";
 
 const router = createBrowserRouter([
   {

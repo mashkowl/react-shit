@@ -4,6 +4,7 @@ export default function Root() {
     <>
       <div id="sidebar">
         <h1>React simple examples</h1>
+
         <nav>
           <ul>
             <li key="weather">
@@ -14,6 +15,7 @@ export default function Root() {
           </ul>
         </nav>
       </div>
+
       <div id="detail">
         <Outlet/>
       </div>
