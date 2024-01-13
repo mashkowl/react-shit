@@ -1,3 +1,5 @@
+@import "icons.css";
+
 html {
   box-sizing: border-box;
 }
@@ -73,7 +75,7 @@ body {
 }
 
 #sidebar h1::before {
-  content: url("./assets/react.svg");
+  content: url("../assets/react.svg");
   margin-right: 0.5rem;
   position: relative;
   top: 1px;

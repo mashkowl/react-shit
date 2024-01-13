@@ -64,14 +64,13 @@ export default function WeatherPage() {
             <h3>{weatherData.location.name}, {weatherData.location.country}</h3>
 
             <time dateTime={weatherData.location.localtime}>
-              {format(weatherData.location.localtime, 'dd.MM.yyyy HH:mm')}
+              {format(weatherData.location.localtime, 'dd MMMM HH:mm')}
             </time>
 
             <div className='weather-card--info'>
               <div>
-                <p>{weatherData.current.temp_c}°C</p>
-                <p>feels like: {weatherData.current.feelslike_c}°C</p>
-                <p>{weatherData.current.condition.text}</p>
+                <p>{Math.round(weatherData.current.temp_c)}°C {weatherData.current.condition.text}</p>
+                <p>feels like {Math.round(weatherData.current.feelslike_c)}°C</p>
               </div>
             </div>
 
@@ -85,7 +84,11 @@ export default function WeatherPage() {
                       'future-weather-icon'
                     }
                   />
-                  <div>{item.day.mintemp_c} / {item.day.maxtemp_c}</div>
+
+                  <div className="future-weather__weather-line">
+                    <p><span className="icon-arrow-top"/> {Math.round(item.day.mintemp_c)}</p>
+                    <p><span className="icon-arrow-bottom"/> {Math.round(item.day.maxtemp_c)}</p>
+                  </div>
                 </div>
               ))}
             </div>

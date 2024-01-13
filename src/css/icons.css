@@ -1,0 +1,492 @@
+.icon-arrow-top {
+  display: inline-block;
+  mask: url('../assets/arrow.svg') 0 0 / cover no-repeat;
+}
+
+.icon-arrow-bottom {
+  display: inline-block;
+  mask: url('../assets/arrow.svg') 0 0 / cover no-repeat;
+  transform: rotate(180deg);
+}
+
+/*weathers icons*/
+
+.day-113 {
+  display: inline-block;
+  mask: url('../assets/weather/day/113.svg') 0 0 / cover no-repeat;
+}
+
+.day-116 {
+  display: inline-block;
+  mask: url('../assets/weather/day/116.svg') 0 0 / cover no-repeat;
+}
+
+.day-119 {
+  display: inline-block;
+  mask: url('../assets/weather/day/119 122.svg') 0 0 / cover no-repeat;
+}
+
+.day-122 {
+  display: inline-block;
+  mask: url('../assets/weather/day/119 122.svg') 0 0 / cover no-repeat;
+}
+
+.day-143 {
+  display: inline-block;
+  mask: url('../assets/weather/day/143.svg') 0 0 / cover no-repeat;
+}
+
+.day-176 {
+  display: inline-block;
+  mask: url('../assets/weather/day/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.day-179 {
+  display: inline-block;
+  mask: url('../assets/weather/day/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.day-293 {
+  display: inline-block;
+  mask: url('../assets/weather/day/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.day-299 {
+  display: inline-block;
+  mask: url('../assets/weather/day/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.day-353 {
+  display: inline-block;
+  mask: url('../assets/weather/day/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.day-182 {
+  display: inline-block;
+  mask: url('../assets/weather/day/182 362.svg') 0 0 / cover no-repeat;
+}
+
+.day-362 {
+  display: inline-block;
+  mask: url('../assets/weather/day/182 362.svg') 0 0 / cover no-repeat;
+}
+
+.day-185 {
+  display: inline-block;
+  mask: url('../assets/weather/day/185.svg') 0 0 / cover no-repeat;
+}
+
+.day-200 {
+  display: inline-block;
+  mask: url('../assets/weather/day/200 386.svg') 0 0 / cover no-repeat;
+}
+
+.day-386 {
+  display: inline-block;
+  mask: url('../assets/weather/day/200 386.svg') 0 0 / cover no-repeat;
+}
+
+.day-227 {
+  display: inline-block;
+  mask: url('../assets/weather/day/227.svg') 0 0 / cover no-repeat;
+}
+
+.day-230 {
+  display: inline-block;
+  mask: url('../assets/weather/day/230.svg') 0 0 / cover no-repeat;
+}
+
+.day-248 {
+  display: inline-block;
+  mask: url('../assets/weather/day/248.svg') 0 0 / cover no-repeat;
+}
+
+.day-260 {
+  display: inline-block;
+  mask: url('../assets/weather/day/260.svg') 0 0 / cover no-repeat;
+}
+
+.day-281 {
+  display: inline-block;
+  mask: url('../assets/weather/day/281.svg') 0 0 / cover no-repeat;
+}
+
+.day-284 {
+  display: inline-block;
+  mask: url('../assets/weather/day/284.svg') 0 0 / cover no-repeat;
+}
+
+.day-308 {
+  display: inline-block;
+  mask: url('../assets/weather/day/308.svg') 0 0 / cover no-repeat;
+}
+
+.day-338 {
+  display: inline-block;
+  mask: url('../assets/weather/day/338.svg') 0 0 / cover no-repeat;
+}
+
+.day-350 {
+  display: inline-block;
+  mask: url('../assets/weather/day/350.svg') 0 0 / cover no-repeat;
+}
+
+.day-359 {
+  display: inline-block;
+  mask: url('../assets/weather/day/359.svg') 0 0 / cover no-repeat;
+}
+
+.day-365 {
+  display: inline-block;
+  mask: url('../assets/weather/day/365.svg') 0 0 / cover no-repeat;
+}
+
+.day-374 {
+  display: inline-block;
+  mask: url('../assets/weather/day/374.svg') 0 0 / cover no-repeat;
+}
+
+.day-377 {
+  display: inline-block;
+  mask: url('../assets/weather/day/377.svg') 0 0 / cover no-repeat;
+}
+
+.day-389 {
+  display: inline-block;
+  mask: url('../assets/weather/day/389.svg') 0 0 / cover no-repeat;
+}
+
+.day-392 {
+  display: inline-block;
+  mask: url('../assets/weather/day/392.svg') 0 0 / cover no-repeat;
+}
+
+.day-395 {
+  display: inline-block;
+  mask: url('../assets/weather/day/392.svg') 0 0 / cover no-repeat;
+}
+
+.day-263 {
+  display: inline-block;
+  mask: url('../assets/weather/day/263 266.svg') 0 0 / cover no-repeat;
+}
+
+.day-266 {
+  display: inline-block;
+  mask: url('../assets/weather/day/263 266.svg') 0 0 / cover no-repeat;
+}
+
+.day-296 {
+  display: inline-block;
+  mask: url('../assets/weather/day/296 302.svg') 0 0 / cover no-repeat;
+}
+
+.day-302 {
+  display: inline-block;
+  mask: url('../assets/weather/day/296 302.svg') 0 0 / cover no-repeat;
+}
+
+.day-305 {
+  display: inline-block;
+  mask: url('../assets/weather/day/305 356.svg') 0 0 / cover no-repeat;
+}
+
+.day-356 {
+  display: inline-block;
+  mask: url('../assets/weather/day/305 356.svg') 0 0 / cover no-repeat;
+}
+
+.day-311 {
+  display: inline-block;
+  mask: url('../assets/weather/day/311 314.svg') 0 0 / cover no-repeat;
+}
+
+.day-314 {
+  display: inline-block;
+  mask: url('../assets/weather/day/311 314.svg') 0 0 / cover no-repeat;
+}
+
+.day-317 {
+  display: inline-block;
+  mask: url('../assets/weather/day/317 320.svg') 0 0 / cover no-repeat;
+}
+
+.day-320 {
+  display: inline-block;
+  mask: url('../assets/weather/day/317 320.svg') 0 0 / cover no-repeat;
+}
+
+.day-323 {
+  display: inline-block;
+  mask: url('../assets/weather/day/323 329 368.svg') 0 0 / cover no-repeat;
+}
+
+.day-329 {
+  display: inline-block;
+  mask: url('../assets/weather/day/323 329 368.svg') 0 0 / cover no-repeat;
+}
+
+.day-368 {
+  display: inline-block;
+  mask: url('../assets/weather/day/323 329 368.svg') 0 0 / cover no-repeat;
+}
+
+.day-326 {
+  display: inline-block;
+  mask: url('../assets/weather/day/326 332.svg') 0 0 / cover no-repeat;
+}
+
+.day-332 {
+  display: inline-block;
+  mask: url('../assets/weather/day/326 332.svg') 0 0 / cover no-repeat;
+}
+
+.day-335 {
+  display: inline-block;
+  mask: url('../assets/weather/day/335 371.svg') 0 0 / cover no-repeat;
+}
+
+.day-371 {
+  display: inline-block;
+  mask: url('../assets/weather/day/335 371.svg') 0 0 / cover no-repeat;
+}
+
+.night-113 {
+  display: inline-block;
+  mask: url('../assets/weather/night/113.svg') 0 0 / cover no-repeat;
+}
+
+.night-116 {
+  display: inline-block;
+  mask: url('../assets/weather/night/116.svg') 0 0 / cover no-repeat;
+}
+
+.night-119 {
+  display: inline-block;
+  mask: url('../assets/weather/night/119 122.svg') 0 0 / cover no-repeat;
+}
+
+.night-122 {
+  display: inline-block;
+  mask: url('../assets/weather/night/119 122.svg') 0 0 / cover no-repeat;
+}
+
+.night-143 {
+  display: inline-block;
+  mask: url('../assets/weather/night/143.svg') 0 0 / cover no-repeat;
+}
+
+.night-176 {
+  display: inline-block;
+  mask: url('../assets/weather/night/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.night-179 {
+  display: inline-block;
+  mask: url('../assets/weather/night/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.night-293 {
+  display: inline-block;
+  mask: url('../assets/weather/night/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.night-299 {
+  display: inline-block;
+  mask: url('../assets/weather/night/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.night-353 {
+  display: inline-block;
+  mask: url('../assets/weather/night/176 179 293 299 353.svg') 0 0 / cover no-repeat;
+}
+
+.night-182 {
+  display: inline-block;
+  mask: url('../assets/weather/night/182 362.svg') 0 0 / cover no-repeat;
+}
+
+.night-362 {
+  display: inline-block;
+  mask: url('../assets/weather/night/182 362.svg') 0 0 / cover no-repeat;
+}
+
+.night-185 {
+  display: inline-block;
+  mask: url('../assets/weather/night/185.svg') 0 0 / cover no-repeat;
+}
+
+.night-200 {
+  display: inline-block;
+  mask: url('../assets/weather/night/200 386.svg') 0 0 / cover no-repeat;
+}
+
+.night-386 {
+  display: inline-block;
+  mask: url('../assets/weather/night/200 386.svg') 0 0 / cover no-repeat;
+}
+
+.night-227 {
+  display: inline-block;
+  mask: url('../assets/weather/night/227.svg') 0 0 / cover no-repeat;
+}
+
+.night-230 {
+  display: inline-block;
+  mask: url('../assets/weather/night/230.svg') 0 0 / cover no-repeat;
+}
+
+.night-248 {
+  display: inline-block;
+  mask: url('../assets/weather/night/248.svg') 0 0 / cover no-repeat;
+}
+
+.night-260 {
+  display: inline-block;
+  mask: url('../assets/weather/night/260.svg') 0 0 / cover no-repeat;
+}
+
+.night-281 {
+  display: inline-block;
+  mask: url('../assets/weather/night/281.svg') 0 0 / cover no-repeat;
+}
+
+.night-284 {
+  display: inline-block;
+  mask: url('../assets/weather/night/284.svg') 0 0 / cover no-repeat;
+}
+
+.night-308 {
+  display: inline-block;
+  mask: url('../assets/weather/night/308.svg') 0 0 / cover no-repeat;
+}
+
+.night-338 {
+  display: inline-block;
+  mask: url('../assets/weather/night/338.svg') 0 0 / cover no-repeat;
+}
+
+.night-350 {
+  display: inline-block;
+  mask: url('../assets/weather/night/350.svg') 0 0 / cover no-repeat;
+}
+
+.night-359 {
+  display: inline-block;
+  mask: url('../assets/weather/night/359.svg') 0 0 / cover no-repeat;
+}
+
+.night-365 {
+  display: inline-block;
+  mask: url('../assets/weather/night/365.svg') 0 0 / cover no-repeat;
+}
+
+.night-374 {
+  display: inline-block;
+  mask: url('../assets/weather/night/374.svg') 0 0 / cover no-repeat;
+}
+
+.night-377 {
+  display: inline-block;
+  mask: url('../assets/weather/night/377.svg') 0 0 / cover no-repeat;
+}
+
+.night-389 {
+  display: inline-block;
+  mask: url('../assets/weather/night/389.svg') 0 0 / cover no-repeat;
+}
+
+.night-392 {
+  display: inline-block;
+  mask: url('../assets/weather/night/392.svg') 0 0 / cover no-repeat;
+}
+
+.night-395 {
+  display: inline-block;
+  mask: url('../assets/weather/night/392.svg') 0 0 / cover no-repeat;
+}
+
+.night-263 {
+  display: inline-block;
+  mask: url('../assets/weather/night/263 266.svg') 0 0 / cover no-repeat;
+}
+
+.night-266 {
+  display: inline-block;
+  mask: url('../assets/weather/night/263 266.svg') 0 0 / cover no-repeat;
+}
+
+.night-296 {
+  display: inline-block;
+  mask: url('../assets/weather/night/296 302.svg') 0 0 / cover no-repeat;
+}
+
+.night-302 {
+  display: inline-block;
+  mask: url('../assets/weather/night/296 302.svg') 0 0 / cover no-repeat;
+}
+
+.night-305 {
+  display: inline-block;
+  mask: url('../assets/weather/night/305 356.svg') 0 0 / cover no-repeat;
+}
+
+.night-356 {
+  display: inline-block;
+  mask: url('../assets/weather/night/305 356.svg') 0 0 / cover no-repeat;
+}
+
+.night-311 {
+  display: inline-block;
+  mask: url('../assets/weather/night/311 314.svg') 0 0 / cover no-repeat;
+}
+
+.night-314 {
+  display: inline-block;
+  mask: url('../assets/weather/night/311 314.svg') 0 0 / cover no-repeat;
+}
+
+.night-317 {
+  display: inline-block;
+  mask: url('../assets/weather/night/317 320.svg') 0 0 / cover no-repeat;
+}
+
+.night-320 {
+  display: inline-block;
+  mask: url('../assets/weather/night/317 320.svg') 0 0 / cover no-repeat;
+}
+
+.night-323 {
+  display: inline-block;
+  mask: url('../assets/weather/night/323 329 368.svg') 0 0 / cover no-repeat;
+}
+
+.night-329 {
+  display: inline-block;
+  mask: url('../assets/weather/night/323 329 368.svg') 0 0 / cover no-repeat;
+}
+
+.night-368 {
+  display: inline-block;
+  mask: url('../assets/weather/night/323 329 368.svg') 0 0 / cover no-repeat;
+}
+
+.night-326 {
+  display: inline-block;
+  mask: url('../assets/weather/night/326 332.svg') 0 0 / cover no-repeat;
+}
+
+.night-332 {
+  display: inline-block;
+  mask: url('../assets/weather/night/326 332.svg') 0 0 / cover no-repeat;
+}
+
+.night-335 {
+  display: inline-block;
+  mask: url('../assets/weather/night/335 371.svg') 0 0 / cover no-repeat;
+}
+
+.night-371 {
+  display: inline-block;
+  mask: url('../assets/weather/night/335 371.svg') 0 0 / cover no-repeat;
+}
