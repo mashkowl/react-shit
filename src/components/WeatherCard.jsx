@@ -21,7 +21,7 @@ export default function WeatherCard({weatherData, futureWeather, isLoading}) {
               {format(weatherData.location.localtime, 'dd MMMM HH:mm')}
             </time>
 
-            <div className='weather-card--info'>
+            <div className='weather-card__info'>
               <div>
                 <p>{Math.round(weatherData.current.temp_c)}°C {weatherData.current.condition.text}</p>
                 <p>feels like {Math.round(weatherData.current.feelslike_c)}°C</p>

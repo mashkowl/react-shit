@@ -1,4 +1,4 @@
-import '../../pages/weather/WeatherPage.css'
+import './WeatherPage.scss'
 import { useState } from "react";
 import { Autocomplete, CssVarsProvider } from "@mui/joy";
 import { loadFutureWeather, loadPresentWeather } from "../../store/weather.js";
@@ -39,7 +39,7 @@ export default function WeatherPage() {
             id="cities-list"
             options={CITIES_LIST}
             onSelect={(event) => {
-              if (!!event.target.value) {
+              if (event.target.value) {
                 loadWeather(`${event.target.value}`)
               } else {
                 setWeatherData(null)

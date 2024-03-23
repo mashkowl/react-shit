@@ -4,18 +4,19 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-import './css/index.css';
-import Root from "./routes/root.jsx";
+import './css/index.scss';
+import Root from "./pages/root.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import WeatherPage from "./pages/weather/WeatherPage.jsx";
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: '/',
     element: <Root/>,
     errorElement: <ErrorPage />,
     children: [
       {
+        name: 'Weather widget',
         path: 'weather',
         element: <WeatherPage />,
       },
