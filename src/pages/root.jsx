@@ -1,7 +1,10 @@
+import React from "react";
 import { Link, Outlet } from "react-router-dom";
+
 import { router } from "../main.jsx";
+
 export default function Root() {
-  const pages = Array.from(router.routes[0].children)
+  const pages = Array.from(router.routes[0].children);
 
   return (
     <>
@@ -12,9 +15,7 @@ export default function Root() {
           <ul>
             {pages.map((item) => (
               <li key={item.path}>
-                <Link to={item.path}>
-                  {item.name}
-                </Link>
+                <Link to={item.path}>{item.name}</Link>
               </li>
             ))}
           </ul>
@@ -22,7 +23,7 @@ export default function Root() {
       </section>
 
       <div id="detail">
-        <Outlet/>
+        <Outlet />
       </div>
     </>
   );

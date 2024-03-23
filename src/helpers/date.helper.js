@@ -1,20 +1,20 @@
 export function weekdayFormatted(weekday) {
   switch (weekday) {
     case 1:
-      return 'Mon'
+      return "Mon";
     case 2:
-      return 'Tue'
+      return "Tue";
     case 3:
-      return 'Wed'
+      return "Wed";
     case 4:
-      return 'Thu'
+      return "Thu";
     case 5:
-      return 'Fri'
+      return "Fri";
     case 6:
-      return 'Sat'
+      return "Sat";
     case 7:
-      return 'Sun'
+      return "Sun";
     default:
-      return ''
+      return "";
   }
 }
