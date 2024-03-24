@@ -1,0 +1,25 @@
+#detail {
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  header {
+    padding: 12px;
+    border-radius: 15px;
+    background: rgba(110, 110, 110, 0.53);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+
+    border: 2px solid rgba(148, 148, 148, 0.25);
+    box-shadow: inset 2px 2px 5px rgba(110, 110, 110, 0.53), 1px 1px 5px rgba(59, 57, 57, 0.3);
+
+    h1 {
+      @include title-scribble-2;
+      color: $new-light-primary;
+    }
+
+    p {
+      @include body;
+      color: $new-light-third;
+    }
+  }
+}

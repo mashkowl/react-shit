@@ -5,6 +5,7 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import ErrorPage from "./pages/ErrorPage.jsx";
+import NasaPage from "./pages/NasaPage/NasaPage.jsx";
 import Root from "./pages/root.jsx";
 import WeatherPage from "./pages/weather/WeatherPage.jsx";
 
@@ -18,6 +19,11 @@ export const router = createBrowserRouter([
         name: "Weather widget",
         path: "weather",
         element: <WeatherPage />,
+      },
+      {
+        name: "Nasa api",
+        path: "nasa",
+        element: <NasaPage />,
       },
     ],
   },

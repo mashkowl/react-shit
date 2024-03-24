@@ -1,0 +1,195 @@
+//color variable
+$new-light-primary: #ffffff;
+$new-light-second: #f8f8f8;
+$new-light-third: #f3f3f3;
+$new-light-fourth: #ececec;
+$new-light-fifth: #e9e9e9;
+$new-light-sixth: #bdbdbd;
+
+$new-black: #000000;
+$new-dark-ultra: #171717;
+$new-dark-primary: #212121;
+$new-dark-second: #2f2f2f;
+$new-dark-third: #474747;
+$new-dark-fourth: #5c5c5c;
+$new-dark-fifth: #666666;
+$new-dark-sixth: #969696;
+
+$shadow-default: 0 0 20px rgba(0, 0, 0, 0.1);
+
+$link-blue: #2f80ed;
+$other-blue: #447ecb;
+$money: #219653;
+$other-green: #3e8d60;
+$red: #ea4949;
+$other-red: #eb5757;
+
+//mixin for fonts
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@mixin title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-feature-settings: "pnum" on,
+  "lnum" on;
+}
+
+@mixin title-1 {
+  @include title();
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 92%;
+  letter-spacing: -0.04em;
+
+  @media (max-width: 1023px) {
+    font-size: 42px;
+  }
+}
+
+@mixin title-2 {
+  @include title();
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+
+  @media (max-width: 1023px) {
+    font-size: 28px;
+  }
+}
+
+@mixin title-3 {
+  @include title();
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+
+  @media (max-width: 1023px) {
+    font-size: 20px;
+    line-height: 120%;
+  }
+}
+
+@mixin title-scribble {
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin title-scribble-1 {
+  @include title-scribble;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 92%;
+  letter-spacing: -0.04em;
+
+  @media (max-width: 1023px) {
+    font-size: 42px;
+  }
+}
+
+@mixin title-scribble-2 {
+  @include title-scribble;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+
+  @media (max-width: 1023px) {
+    font-size: 28px;
+  }
+}
+
+@mixin title-scribble-3 {
+  @include title-scribble;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+
+  @media (max-width: 1023px) {
+    font-size: 20px;
+    line-height: 120%;
+  }
+}
+
+@mixin text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 140%;
+  font-feature-settings: "pnum" on,
+  "lnum" on;
+}
+
+@mixin text-1 {
+  font-size: 20px;
+  @include text;
+
+  @media (max-width: 1023px) {
+    font-size: 18px;
+  }
+}
+
+@mixin text-2 {
+  font-size: 14px;
+  @include text;
+
+  @media (max-width: 1023px) {
+    font-size: 12px;
+  }
+}
+
+@mixin text-2-bold {
+  @include text-2;
+  font-weight: 600;
+}
+
+@mixin body {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  font-feature-settings: "pnum" on,
+  "lnum" on;
+
+  @media (max-width: 1023px) {
+    font-size: 14px;
+  }
+}
+
+@mixin body-bold {
+  @include body;
+  font-weight: 500;
+}
+
+@mixin caption {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  font-feature-settings: "pnum" on,
+  "lnum" on;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+  }
+}
+
+@mixin caption-bold {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  font-feature-settings: "pnum" on,
+  "lnum" on;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+  }
+}

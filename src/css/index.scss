@@ -1,4 +1,5 @@
 @import "icons.css";
+@import "variable.scss";
 
 html {
   box-sizing: border-box;
@@ -48,8 +49,8 @@ body {
   width: 100%;
 }
 
-#sidebar {
-  width: 22rem;
+.sidebar {
+  width: 280px;
   background: #212121;
   border-right: solid 1px #474747;
   display: flex;
@@ -77,8 +78,6 @@ body {
       top: 1px;
     }
   }
-
-
 
   nav {
     flex: 1;
@@ -112,11 +111,15 @@ body {
     flex-direction: column;
     gap: 12px;
   }
+
+  .active {
+    background: rgba(26, 208, 255, 0.5) !important;
+  }
 }
 
 #detail {
   flex: 1;
-  padding: 2rem 4rem;
+  padding: 24px;
   width: 100%;
 
   .loading {
